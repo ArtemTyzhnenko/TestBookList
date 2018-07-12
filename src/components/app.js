@@ -1,14 +1,13 @@
 import React, {Component} from 'react';
-import BooksList from './BooksList/BooksList'
+import BookContainer from '../containers/BookContainer/BookContainer';
+import './App.scss';
 
 export default class App extends Component {
     render() {
         return (
             <div className="wrapper">
-                <BooksList
-
-                />
+                <BookContainer/>
             </div>
         );
-    }
-}
+    };
+};
